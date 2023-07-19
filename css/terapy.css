@@ -1,0 +1,737 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 19px;
+}
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+.container {
+    width: 1440px;
+    position: relative;
+    padding: 0 15px;
+    min-height: 100%;
+    margin: 0 auto;
+}
+.btn1{
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 107.4%;
+    background-color: #37B449;
+    border-radius: 100px;
+    padding: 20px 37px 20px 37px;
+    }
+    .btn2{
+    color: #37B449;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 107.4%;
+    padding: 20px 35px 20px 25px;
+    border:none;
+    border:solid 2px #37B449;
+    border-radius: 100px;
+    }
+
+/*HEADER*/
+
+.header{
+    background-color: #FB8E26;
+    height: 100px;
+    padding-top: 15px;
+}
+.header__top-in {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__nav-list {
+    display: flex;
+}
+.header__nav-item {
+    margin-right: 20px;
+}
+.header__nav-item:last-child{
+    margin-right: 0;
+}
+.header__nav-link {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 107.4%;
+    text-transform: uppercase;
+    color: #FFF;
+}
+.header__call-text {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 107.4%;
+    text-transform: uppercase;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+.header__button{
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 107.4%;
+    border-radius: 100px;
+    background: #37B449;
+    padding: 20px 46px 20px 46px;
+}
+.header__call-info{
+    display: flex;
+}
+.header__main{
+    display: flex;
+    align-items: center;
+}
+.burger{
+    display: none;
+}
+/*terapy*/
+.terapy {
+    padding-top: 48px;
+    padding-bottom: 80px;
+}
+.terapy__header {
+    display: flex;
+    margin-bottom: 57px;
+}
+.terapy__subhead {
+    color: rgba(0, 0, 0, 0.41);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-right: 12px;
+}
+.terapy__arrow {
+    margin-right: 12px;
+}
+.terapy__head {
+    color: #000;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 107.4%;
+    margin-bottom: 50px;
+}
+.terapy__in {
+    display: flex;
+}
+.terapy__acc {
+    margin-right: 50px;
+}
+.terapy__acc-box {
+    list-style-type: none; 
+    max-width: 280px;
+}
+.terapy__acc-item {
+    position: relative;
+    border: 1px solid #F0F0F0;
+    background: rgba(255, 255, 255, 0.10);
+    max-width: 280px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+.terapy__acc-bit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.terapy__acc-text {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 107.4%;
+}
+.terapy__acc-malbox {
+    position: absolute;
+    background-color: #FFF;
+    top: -1px;
+    left: 210px;
+    width: 937px;
+    height: 390px;
+    display: none;
+
+}
+.terapy__acc-maltxt {
+    display: flex;
+}
+.terapy__acc-maltx {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.terapy__acc-mallink {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+.galka{
+    margin-right: 15px;
+}
+.grenn{
+    display: flex;
+    width: 260px;
+    margin-bottom: 24px;
+}
+.grenn__line{
+    color: #FB8E26;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    margin-right: 5px;
+}
+.grenn__text{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+.terapy__acc-text:hover{
+    color: #37B449;
+}
+.terapy__acc-item:hover .terapy__acc-malbox{
+    display: block;
+}
+
+.info__box-btn {
+    margin-top: 56px;
+    margin-bottom: 144px;
+}
+.info__btn {
+    margin-right: 60px;
+}
+.terapy__text {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 8px;
+    max-width: 910px;
+}
+.terapy__title {
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 107.4%; 
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.terapy__box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.terapy__info__box{
+    margin-right: 28px;
+}
+.terapy__info {
+    margin-right: 30px;
+    display: flex;
+}
+.terapy__info-title {
+    margin-bottom: 5px;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    max-width: 375px;
+}
+.terapy__info-text {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 8px;
+    max-width: 375px;
+}
+.terapy__img {
+    display: flex;
+    flex-direction: column;
+}
+.red{
+    margin-bottom: 48px;
+}
+.table__box {
+    width: 1216px;
+    height: 1015px;
+}
+.table__text {
+    border: 1px solid #FB8E26;
+}
+.table__bit {
+    display: flex;
+}
+.table__line {
+    color: #FB8E26;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    margin-right: 5px;
+    margin-left: 36px;
+}
+.table__txt {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+.table__cost {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    border: 1px solid #FB8E26;
+    margin-left: 56px;
+    margin-right: 56px;
+}
+.table__cost1 {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-left: 56px;
+    margin-right: 56px;
+}
+.terapy__doc {
+    display: flex;
+    margin-top: 30px;
+}
+.doctors__box {
+    max-width: 316px;
+    margin-right: 80px;
+}
+.doctors__imges {
+    margin-bottom: 40px;
+    border-radius: 10px;
+    border: 3px solid #37B449;
+    background: #E6E6E6;
+    overflow: hidden;
+    box-shadow: 3px 3px 15px 0px rgba(0, 0, 0, 0.25);
+    height: 394px;
+}
+.doctors__img {
+    padding-top: 39px;
+}
+
+.doctors__title {
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 107.4%;
+    max-width: 306px;
+}
+.doctors__subtitle {
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 107.4%;
+    max-width: 306px;
+}
+
+
+/*form*/
+.form {
+    padding-top: 110px;
+    padding-bottom: 110px;
+    background: #37B449;
+    position: relative;
+}
+form__wraper{
+    position: relative;
+}
+.form__bit1{
+    position: absolute;
+    top: -18px;
+    left: 210px;
+}
+.form__bit2{
+    position: absolute;
+    top: -165px;
+    right: 345px;
+}
+.form__ins {
+    display: flex;
+    align-items: center;
+}
+.form__tell {
+    border-radius: 100px;
+    padding: 20px 350px 20px 15px;
+    margin-right: 180px;
+}
+.form__button {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 107.4%;
+    border-radius: 100px;
+    background: #FB8E26;
+    padding: 20px 45px 20px 45px;
+}
+.form__container{
+    padding-left: 90px;
+}
+/*footer*/
+.footer {
+    height: 100px;
+    background-color: #FB8E26;
+    padding-top: 15px
+}
+
+.footer__top-in {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__main {
+    display: flex;
+    align-items: center;
+}
+.footer__logo {
+    margin-right: 52px;
+}
+
+.footer__nav-list {
+    display: flex;
+}
+.footer__nav-item {
+    margin-right: 20px;
+}
+.footer__nav-item:last-child{
+    margin-right: 0;
+}
+.footer__nav-link {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 107.4%;
+    text-transform: uppercase;
+    color: #FFF;
+}
+.footer__call-info {
+    display: flex;
+    align-items: center;
+}
+.footer__call-text {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 107.4%;
+    text-transform: uppercase;
+    margin-right: 90px;
+}
+.footer__button {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 107.4%;
+}
+@media (max-width: 480px){
+    /*header*/
+    .burger {
+        position: fixed;
+        top: 30px;
+        left: 300px;
+        z-index: 101;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: all .3s;
+    }
+    
+    .burger--follow {
+        box-shadow: 0 4px 8px 0px #8281819e;
+        background-color: #FFFFFF;
+    }
+    
+    .burger span {
+        display: block;
+        height: 4px;
+        width: 30px;
+        background-color: #1E1B1B;
+        border-radius: 3px;
+        margin: 4px 0;
+        transition: all .3s;
+    }
+    
+    .burger::before,
+    .burger::after {
+        content: "";
+        display: block;
+        height: 4px;
+        width: 30px;
+        background-color: #1E1B1B;
+        border-radius: 3px;
+        transition: all .3s;
+    }
+    
+    .burger.open span {
+        transition: all .3s;
+    }
+    
+    .burger.open:before {
+        position: fixed;
+        transform: rotate(45deg);
+        top: 35px;
+    }
+    
+    .burger.open:after {
+        position: fixed;
+        transform: rotate(-45deg);
+        top: 35px;
+    }
+    .burger.open span {
+        transform: scale(0);
+    }
+    .header__nav{
+        display: none;
+        position: fixed;
+        top: 100px;
+        left: 160px;
+        background-color: #37B449;
+        z-index: 100;
+        min-width: 250px;
+        height: 100%;
+        transition: all .3s;
+        transform: translateX(100%);
+    }
+    .header__nav--open{
+        display: block;
+        transform: translateX(0%);
+    }
+    .header__nav-open{
+        display: block;
+    }
+    .header__nav-list{
+        display: flex;
+        flex-direction: column;
+        margin-top: 26px;
+        margin-left: 28px;
+    }
+    .header__nav-item{
+        margin-bottom: 22px;
+    }
+    .header__button{
+        display: none;
+    }
+    .header__call-text{
+        position: absolute;
+        top: 3px;
+        left: 110px;
+        font-size: 20px;
+    }
+    /*terapy*/
+    .terapy__subhead{
+        font-size: 24px;
+        max-width: 207px;
+    }
+    .terapy__head{
+        font-size: 36px;
+    }
+    .terapy__in{
+        display: flex;
+        flex-direction: column;
+    }
+    .btn1{
+        max-width: 192px;
+        font-size: 20px;
+        padding: 15px 22px 15px 22px;
+    }
+    .btn2{
+        font-size: 20px;
+        max-width: 277px;
+        padding: 15px 20px 15px 20px;
+    }
+    .info__btn{
+        margin-bottom: 23px;
+    }
+    .info__box-btn{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 48px;
+    }
+    .cat2{
+        max-width: 341px;
+        max-height: 232px;
+    }
+    .terapy__text{
+        max-width: 342px;
+        font-size: 16px;
+    }
+    .terapy__title{
+        font-size: 32px;
+        max-width: 342px;
+    }
+    .terapy__info-title{
+        font-size: 16px;
+        max-width: 339px;
+    }
+    .terapy__info-text{
+        font-size: 16px;
+        max-width: 334px;
+    }
+    .terapy__info{
+        display: flex;
+        flex-direction: column;
+    }
+    .red{
+        max-width: 341px;
+        max-height: 186px;
+    }
+    .dog1{
+        max-width: 341px;
+        max-height: 186px;
+    }
+    .terapy__acc{
+        margin-bottom: 48px;
+    }
+    .terapy__acc-box{
+        display: flex;
+        flex-direction: column;
+    }
+    .terapy__acc-malbox{
+        position: absolute;
+        max-width: 280px;
+        left: 0;
+        top: 50px;
+        z-index: 150;
+        background-color: #FFF;
+    }
+    .terapy__acc-malitem{
+        display: flex;
+        flex-direction: column;
+    }
+    .terapy__acc-maltxt{
+        display: flex;
+        flex-direction: column;
+        background-color: #FFF;
+    }
+    /*table*/
+    .table__head{
+        display: none;
+    }
+    .table__txt{
+        font-size: 20px;
+        max-width: 221px;
+    }
+    .table__cost{
+        font-size: 20px;
+        margin: 0;
+    }
+    .table__box{
+        max-width: 342px;
+    }
+    .table__line{
+        margin-left: 0;
+    }
+    .table__cost1{
+        margin-left: 31px;
+        margin-right: 20px;
+        font-size: 20px;
+    }
+    /*doctors*/
+    .terapy__doc{
+        display: flex;
+        flex-direction: column;
+    }
+    .doctors__title{
+        font-size: 32px;
+    }
+    .doctors__subtitle{
+        font-size: 24px;
+    }
+    .doctors__box{
+        max-width: 322px;
+        margin-bottom: 30px;
+    }
+    /*form*/
+    .form{
+        height: 283px;
+    }
+    .form__bit1{
+        top: -20px;
+        left: -20px;
+    }
+    .form__bit2{
+        top: 100px;
+        left: 95px;
+    }
+    .form__ins{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: center;
+    }
+    .form__tell{
+        padding: 12px 190px 13px 19px;
+        margin-right: 0px;
+    }
+    .lapa1{
+        width: 198.928px;
+        height: 131.651px;
+    }
+    .form__container{
+        position: absolute;
+        left: 0px;
+    }
+    .form__box{
+        position: absolute;
+        left: 0;
+        top: -30px;
+    }
+    .form__button{
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .sled{
+        width: 263.272px;
+        height: 263.774px;
+    }
+    /*footer*/
+    .footer__nav{
+        display: none;
+    }
+    .footer__call-text{
+        display: none;
+        margin-right: 0;
+    }
+    .footer__top-in{
+        display: flex;
+        justify-content: space-between;
+        max-width: 350px;
+    }
+}
