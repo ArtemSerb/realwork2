@@ -840,13 +840,14 @@ max-width: 463px;
     }
     .doctors__box{
         margin-right: 50px;
+        max-width: 309px;
         }
     .strela{
         width: 35px;
         height: 35px;
     }
     .doctors__boxes .slick-list {
-        margin: 0 -105px;
+        margin: 0 -355px;
     }
     .reviews__slider-next{
         left: 300px;
