@@ -8,7 +8,7 @@ $(function(){
             {
                 breakpoint: 480,
                 settings: {
-                slidesToShow: 1,
+                slidesToShow: 1
                 }
             }
         ]
